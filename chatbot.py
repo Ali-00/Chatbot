@@ -108,8 +108,6 @@ def ask_from_bot():
         speak(answer_from_bot)
         textF.delete(0, END)
         msgs.yview(END)
-    elif(str(answer_from_bot) == '1'):
-        answer_from_bot = playsound('The_Break_Up_MashUp_Full_Video_Song_2014__DJ_Chetas.mp3')
         
     else:
         answer_from_bot = wikipedia.summary(query, sentences=4)
