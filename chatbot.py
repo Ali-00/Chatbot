@@ -100,11 +100,9 @@ def takeQuery():
 
 def ask_from_bot():
     query = textF.get()
-    # try:
     answer_from_bot = bot.get_response(query)
     if(str(answer_from_bot) != '0'):
-    # except:
-    #   answer_from_bot = wikipedia.summary(query,sentences=4)
+        
         msgs.insert(END, "you : " + query + '\n')
         msgs.insert(END, "bot : " + str(answer_from_bot) + '\n')
         speak(answer_from_bot)
@@ -112,11 +110,7 @@ def ask_from_bot():
         msgs.yview(END)
     elif(str(answer_from_bot) == '1'):
         answer_from_bot = playsound('The_Break_Up_MashUp_Full_Video_Song_2014__DJ_Chetas.mp3')
-        # msgs.insert(END, "you : " + query)
-        # msgs.insert(END, "bot : " + str(answer_from_bot))
-        # speak(answer_from_bot)
-        # textF.delete(0, END)
-        # msgs.yview(END)
+        
     else:
         answer_from_bot = wikipedia.summary(query, sentences=4)
         msgs.insert(END, "you : " + query + '\n')
