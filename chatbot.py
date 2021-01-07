@@ -23,8 +23,6 @@ bot = ChatBot(
     logic_adapters=[
         {
             'import_path': 'chatterbot.logic.BestMatch',
-            # 'default_response': 'I am sorry, but I do not understand.',
-            # 'default_response': 'answer_from_bot = wikipedia.summary(query,sentences=4),
             'default_response':'0',
             'maximum_similarity_threshold': 0.90
         },
