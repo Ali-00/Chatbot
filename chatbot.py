@@ -56,14 +56,6 @@ trainer = ListTrainer(bot)
 
 trainer.train(convo)
 
-# print("Talk to bot")
-# while True:
-#     query = input()
-#     if query == 'exit':
-#         break
-#     answer = bot.get_response(query)
-#     print("bot : ",answer)
-
 main = Tk()
 
 main.geometry("500x650")
