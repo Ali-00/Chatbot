@@ -54,12 +54,7 @@ convo = [
 
 trainer = ListTrainer(bot)
 
-# now training the bot with the help of trainer
-
 trainer.train(convo)
-
-# answer = bot.get_response('What is your name?')
-# print(answer)
 
 # print("Talk to bot")
 # while True:
