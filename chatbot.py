@@ -106,11 +106,6 @@ def ask_from_bot():
 
 frame = Frame(main)
 
-# sc = Scrollbar(frame,orient='vertical')
-# msgs = Listbox(frame, width=80, height=20)
-#
-# sc.pack(side=RIGHT, fill=Y)
-# msgs.pack(side=LEFT, fill=BOTH, pady=10)
 sc=Scrollbar(frame)
 sc.pack(side=RIGHT, fill=Y)
 
