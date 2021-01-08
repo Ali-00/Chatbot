@@ -29,7 +29,6 @@ bot = ChatBot(
         {
             'import_path': 'chatterbot.logic.SpecificResponseAdapter',
             'input_text': 'play music',
-            # 'output_text': '1',
             'response':'1',
             'maximum_similarity_threshold': 0.98
         }
