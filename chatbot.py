@@ -5,7 +5,6 @@ import pyttsx3 as pp
 import speech_recognition as s
 import threading
 import wikipedia
-from playsound import playsound
 
 engine = pp.init()
 
